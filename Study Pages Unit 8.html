@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Study Pages Unit 8</title>
+        <meta charset="utf-8">
+        <style>
+            dl {
+                display: table;
+                border-collapse: collapse;
+            }
+            dl div {
+                display: table-row;
+            }
+            dt, dd {
+                display: table-cell;
+                border: 1px solid black;
+                vertical-align: top;
+                padding: 5px
+            }
+        </style>
+    </head>
+    <body>
+        <dl>
+            <div>
+                <dt>Web Table</dt>
+                <dd>HTML structure that consists of multiple tables rows and 1 or more columns</dd>
+            </div>
+            <div>
+                <dt>Rows</dt>
+                <dd>Horizontal sections of a table</dd>
+            </div>
+            <div>
+                <dt>Columns</dt>
+                <dd>Vertical sections of a table</dd>
+            </div>
+            <div>
+                <dt>Table Cells</dt>
+                <dd>Contains content for tables</dd>
+            </div>
+            <div>
+                <dt>Header Cells</dt>
+                <dd>Contains content placed at the top of a column or beginning of a row</dd>
+            </div>
+            <div>
+                <dt>th</dt>
+                <dd>Element used to mark header cells</dd>
+            </div>
+            <div>
+                <dt>Data Cells</dt>
+                <dd>Contains content within columns or rows</dd>
+            </div>
+            <div>
+                <dt>CSS Border Property</dt>
+                <dd>Used to add borders to any part of a table</dd>
+            </div>
+            <div>
+                <dt>Collapsed Borders Model</dt>
+                <dd>Borders from adjacent elements are merged together to form a single border</dd>
+            </div>
+            <div>
+                <dt>Spanning Cells</dt>
+                <dd>Single cells that occupies more than one cell row or column</dd>
+            </div>
+            <div>
+                <dt>Row Groups</dt>
+                <dd>Allows to create different styles for groups of rows</dd>
+            </div>
+            <div>
+                <dt>Flexboxes</dt>
+                <dd>Single element can flow from one column to the next</dd>
+            </div>
+            <div>
+                <dt>Visual Viewport</dt>
+                <dd>Visual portion of a screen excluding on-screen keyboards, areas outside of a pinch-zoom area, or any other on-screen artifact that doesn't scale with the dimensions of a page.</dd>
+            </div>
+            <div>
+                <dt>Data Attribute</dt>
+                <dd>Used to store custom data private to the page or application.</dd>
+            </div>
+            <div>
+                <dt>Data Attribute</dt>
+                <dd>Used to store custom data private to the page or application.</dd>
+            </div>
+            <div>
+                <dt>Block Elements</dt>
+                <dd>Always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</dd>
+            </div>
+            <div>
+                <dt>Two-Column Layout</dt>
+                <dd>Column layout enables display of content side-by-side in a page</dd>
+            </div>
+            <div>
+                <dt>Float Elements</dt>
+                <dd>Specifies how an element should float.</dd>
+            </div>
+        </dl>
+        <dl>
+            <div>
+                <dt>< tr ></dt>
+                <dd>< table >
+                </br>< tr >
+                </br>< /tr >
+                </br>< /table >
+                </dd>
+            </div>
+            <div>
+                <dt>Border-collapse</dt>
+                <dd>dl {
+                        display: table;
+                        border-collapse: collapse;
+                        width: 300px;
+                    }
+                </dd>
+            </div>
+            <div>
+                <dt>Border-spacing</dt>
+                <dd>.hey td{
+                        border-spacing: .5rem;
+                        border-collapse: separate;
+                        background-color: lawngreen;
+                        border-radius: 25%;
+                    }
+                </dd>
+            </div>
+            <div>
+                <dt>rowspan</dt>
+                <dd>< td rowspan="3" >Little< /td ></dd>
+            </div>
+            <div>
+                <dt>colspan</dt>
+                <dd>< td colspan="4" >This< /td ></dd>
+            </div>
+            <div>
+                <dt>caption</dt>
+                <dd>< caption >3 Little Pigs< /caption ></dd>
+            </div>
+            <div>
+                <dt>thead</dt>
+                <dd>< thead >
+                </br>< tr >
+                </br>< td >Name< /td >
+                </br>< td >ID< /td >
+                </br>< td >Favorite Color< /td >
+                </br>< /tr >
+                </br>< /thead >
+                </dd>
+            </div>
+            <div>
+                <dt>tbody</dt>
+                <dd>< tbody >
+                </br>< tr >
+                </br>< td >Cara Marshall< /td >
+                </br>< td >< img src="images/Star.PNG" >< /td >
+                </br>< td >Regional Director< /td >
+                </br>< td >15< /td >
+                </br>< td >9000< /td >
+                </br>< /tr >
+                </br>< /tbody >
+                </dd>
+            </div>
+            <div>
+                <dt>tfooter</dt>
+                <dd>< tfooter >
+                </br>< tr >
+                </br>< td >< /td >
+                </br>< /tr >
+                </br>< /tfooter >
+                </dd>
+            </div>
+            <div>
+                <dt>colgroup</dt>
+                <dd>< colgroup >
+                </br>< col id="firstCol" >
+                </br>< col class="dayCols" span="7" >
+                </br>< /colgroup >
+                </dd>
+            </div>
+            <div>
+                <dt>Display</dt>
+                <dd>
+                    <ul>
+                        <li>table</li>
+                        <li>table-inline</li>
+                        <li>table-row</li>
+                        <li>table-row-group</li>
+                        <li>table-header-group</li>
+                        <li>table-footer-group</li>
+                        <li>table-column</li>
+                        <li>table-column-group</li>
+                        <li>table-cell</li>
+                        <li>table-caption</li>
+                    </ul>
+                </dd>
+            </div>
+            <div>
+                <dt>vertical-align</dt>
+                <dd>td {vertical-align: top}</dd>
+            </div>
+            <div>
+                <dt>data-label=”value”</dt>
+                <dd>< td data-label=”Data” />April 2, 2017</td></dd>
+            </div>
+            <div>
+                <dt>column-count</dt>
+                <dd>.header {column-count: 2}</dd>
+            </div>
+            <div>
+                <dt>column-width</dt>
+                <dd>.header {column-width:200px}</dd>
+            </div>
+            <div>
+                <dt>Columns: width count</dt>
+                <dd>.header {columns: 200px 2}</dd>
+            </div>
+            <div>
+                <dt>Column-gap: size</dt>
+                <dd>.header {column-gap: 20px}</dd>
+            </div>
+            <div>
+                <dt>Column-rule: border</dt>
+                <dd>.header {column-rule: 1px solid red}</dd>
+            </div>
+            <div>
+                <dt>orphans: value</dt>
+                <dd>p {column-rule-style: double; orphans: 2}</dd>
+            </div>
+            <div>
+                <dt>widows: value</dt>
+                <dd>p {column-rule-style: double; widows: 3}</dd>
+            </div>
+            <div>
+                <dt>Break-before: type, Break-After: type</dt>
+                <dd>
+                    <ul>
+                        <li>Auto (browser automatically sets column break)</li>
+                        <li>Always (always place a break)</li>
+                        <li>Avoid (avoids placing a break)</li>
+                        <li>Left (inserts page-break before the element so that the next page is formatted as the right page)</li>
+                        <li>Right  (inserts page-break before the element so that the next page is formatted as the right page)</li>
+                        <li>Initial (sets this property to default)</li>
+                        <li>Inherit (inherits property from its parent)</li>
+                    </ul>
+                </dd>
+            </div>
+            <div>
+                <dt>Break-inside: type;</dt>
+                <dd>
+                    <ul>
+                        <li>auto</li>
+                        <li>avoid</li>
+                    </ul>
+                </dd>
+            </div>
+            <div>
+                <dt>Column-span: span;</dt>
+                <dd>p {column-span: all;}</dd>
+            </div>
+        </dl>
+    </body>
+</html>
